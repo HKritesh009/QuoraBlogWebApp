@@ -92,12 +92,10 @@ This project is built with the goal of:
 
 
 ## 📸 Screenshots
-(Insert GIFs or screenshots here if available)
-Example:
 
-![Homepage](./screenshots/home.png)
-![Post View](./screenshots/view-post.png)
 
+<img src="./screenshots/home.png" height="200" alt="Home Page">    <img src="./screenshots/View.png" height="200" alt="Home Page">
+<img src="./screenshots/createNew.png" height="200" alt="Home Page">   <img src="./screenshots/edit.png" height="200" alt="Home Page">
 
 ---
 
