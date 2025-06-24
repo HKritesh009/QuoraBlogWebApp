@@ -75,6 +75,31 @@ bash
 
 ---
 
+## 📡 What is a REST API?
+REST (Representational State Transfer) is an architectural style used to design scalable web services.
+A REST API uses standard HTTP methods (GET, POST, PUT, DELETE) to let clients interact with server-side resources.
+
+Each operation in a RESTful app targets a specific endpoint (URL path) that represents a resource — like a blog post.
+
+---
+
+## 🛣️ How We Choose API Routes (Paths)
+In this project, RESTful routes are carefully designed to match the intent of each HTTP method:
+
+| HTTP Method | Route         | Purpose                  |
+|-------------|---------------|--------------------------|
+| GET         | `/posts`      | List all posts           |
+| GET         | `/posts/:id`  | View a specific post     |
+| POST        | `/posts`      | Create a new post        |
+| PUT         | `/posts/:id`  | Update an existing post  |
+| DELETE      | `/posts/:id`  | Delete a post            |
+
+
+Each route clearly reflects the resource (/posts) and action (create, read, update, delete).
+
+These routes follow REST principles, making the app easy to understand, scale, and maintain — just like how professional APIs (like Twitter or GitHub) are built.
+
+---
 
 ## 💡 Purpose of this Project
 This project is built with the goal of:
