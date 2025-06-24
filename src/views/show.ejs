@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>View Post</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Quora Post Details</h1>
+        <hr>
+
+        <div class="post-card">
+            <h3><strong>ID:</strong> <%= post.id %></h3>
+            <h3><strong>Username:</strong> @<%= post.username %></h3>
+            <p class="content"><strong>Content:</strong> <%= post.content %></p>
+        </div>
+
+        <div class="new-post-link">
+            <a href="/posts" class="btn view">← Back to Posts</a>
+            <a href="/posts/edit?id=<%= post.id %>" class="btn edit">✏️ Edit</a>
+            <form action="/posts/<%= post.id %>?_method=DELETE" method="POST" class="delete-form" style="display:inline;">
+                <button type="submit" class="btn delete">🗑️ Delete</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
