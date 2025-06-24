@@ -44,28 +44,39 @@ git clone https://github.com/your-username/quora-simple-blog.git
 cd quora-simple-blog
 ```
 
-2. 📦 Install Dependencies
-bash
-Copy
-Edit
+### 2. 📦 Install Dependencies
+```bash
 npm install
+```
 
-🔍 Packages Explained
+
+--- 
+
+
+## 🔍 Packages Explained
 Package	Description
 express	Core web framework to build routes and REST API
 ejs	Templating engine to render dynamic HTML
 uuid	Generates unique IDs for each blog post
 method-override	Allows HTML forms to use PUT and DELETE methods
 
-3. ▶️ Run the Application
-bash
-Copy
-Edit
+
+---
+
+## 3. ▶️ Run the Application
+
 node app.js
 The app will run locally on:
-🌐 http://localhost:3000
+bash
+```
+🌐 http://localhost:8080
+```
 
-💡 Purpose of this Project
+
+---
+
+
+## 💡 Purpose of this Project
 This project is built with the goal of:
 
 ✨ Understanding RESTful API architecture
@@ -76,17 +87,22 @@ This project is built with the goal of:
 
 ✨ Bridging the gap between frontend and backend using EJS
 
-📸 Screenshots
+
+---
+
+
+## 📸 Screenshots
 (Insert GIFs or screenshots here if available)
 Example:
 
-md
-Copy
-Edit
 ![Homepage](./screenshots/home.png)
 ![Post View](./screenshots/view-post.png)
 
-🤝 Contribution
+
+---
+
+
+## 🤝 Contribution
 Contributions are welcome!
 If you have ideas to improve this project or make it even more beginner-friendly:
 
@@ -101,17 +117,26 @@ Open a Pull Request
 Let’s learn and grow together! 💪
 
 
-📄 License
+---
+
+
+## 📄 License
 This project is licensed under the MIT License — free to use, share, and modify.
 
-🌟 Show Your Support
+
+---
+
+
+## 🌟 Show Your Support
 If you like this project:
 
 ⭐ Star this repo
 🔁 Share with friends
 🍴 Fork and build your version
 
-Made with ❤️ to help developers understand REST API fundamentals in a fun and practical way.
+---
+
+## Made with ❤️ to help developers understand REST API fundamentals in a fun and practical way.
 
 
 
