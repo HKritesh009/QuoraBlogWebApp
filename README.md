@@ -90,8 +90,8 @@ In this project, RESTful routes are carefully designed to match the intent of ea
 |-------------|---------------|--------------------------|
 | GET         | `/posts`      | List all posts           |
 | GET         | `/posts/:id`  | View a specific post     |
-| POST        | `/posts`      | Create a new post        |
-| PUT         | `/posts/:id`  | Update an existing post  |
+| POST        | `/posts/new`  | Create a new post        |
+| PATCH       | `/posts/:id`  | Update an existing post  |
 | DELETE      | `/posts/:id`  | Delete a post            |
 
 
